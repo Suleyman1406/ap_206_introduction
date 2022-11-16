@@ -1,0 +1,81 @@
+/* *{
+  font-size: 20px;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+p{
+  color: aquamarine;
+}
+
+div,#secondary_part{
+  background-color: white;
+}
+
+.main_part .secondary_part{
+  color: cornflowerblue;
+}
+
+#special_div{
+  color: red;
+}
+p#secondary_part{
+  font-weight: 900;
+}
+
+.upper + .lower + .lower {
+  background-color: blue;
+}
+
+p~div{
+  background-color: darkmagenta;
+}
+
+p{
+  color: red;
+  cursor: not-allowed;
+}
+
+[href="https://www.w3schools.com/csSref/css_selectors.php"]{
+  background-color: bisque;
+}
+
+#birsey:checked{
+  margin: 100px;
+}
+
+#text_input{
+  outline: none;
+  border: 5px solid black;
+}
+
+#text_input:focus{
+  border-color: blue;
+}
+
+#text_input:hover{
+  border-color: blueviolet;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#main_element{
+  display: inline-block;
+  border: 10px solid green;
+  padding: 20px 12px 40px  40px ;
+}
+/* #birsey{
+  width: 300px;
+} */
+
+div{
+  display: inline;
+  width: 300px;
+  height: 200px;
+}
