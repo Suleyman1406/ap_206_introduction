@@ -59,7 +59,7 @@ p{
   border-color: blueviolet;
 } */
 
-*{
+/* *{
   margin: 0;
   padding: 0;
 }
@@ -72,10 +72,35 @@ p{
 }
 /* #birsey{
   width: 300px;
-} */
+} 
 
 div{
   display: inline;
   width: 300px;
   height: 200px;
+} */
+
+.div_1{
+  width: 250px;
+  height: 250px;
+  background-color: blue;
+  border: 25px solid red;
+  border-radius: 50%;
 }
+
+.div_2{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  border: 25px solid rgb(34, 170, 134);
+  margin: 25px;
+}
+.div_3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(42, 209, 51);
+  border: 25px solid rgb(156, 13, 108);
+  margin: 25px;
+  }
