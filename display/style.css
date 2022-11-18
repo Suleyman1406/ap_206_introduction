@@ -1,0 +1,25 @@
+/* div{
+  height: 200px;
+  background-color: blue;
+}
+
+span{
+  display: inline-block;
+  background-color: red;
+} */
+
+#salam {
+  height: 900px;
+  width: 240px;
+}
+#info_div{
+  margin: 200px;
+  position: sticky;
+  /* top: 0px; */
+}
+#card {
+  position: relative;
+  width: 200px;
+  height: 350px;
+  border: 2px solid gray;
+}
