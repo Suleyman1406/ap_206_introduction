@@ -1,0 +1,20 @@
+.card{
+  width: 200px;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: cornsilk;
+  transition:.6s all;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover{
+  transform: translateY(200px);
+  background-color: aqua;
+}
