@@ -79,7 +79,7 @@ div{
   width: 300px;
   height: 200px;
 } */
-
+/* 
 .div_1{
   width: 250px;
   height: 250px;
@@ -103,4 +103,26 @@ div{
   background-color: rgb(42, 209, 51);
   border: 25px solid rgb(156, 13, 108);
   margin: 25px;
-  }
+  } */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border: 5px solid red;
+  background-color: aquamarine !important;
+}
+
+#green {
+  background-color: green;
+}
+
+#green {
+  background-color: red;
+}
