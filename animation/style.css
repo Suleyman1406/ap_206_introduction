@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 100px);
+  }
+  50% {
+    transform: translate(100px, 100px);
+
+    /* background-color: green; */
+  }
+  75% {
+    transform: translate(100px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+    /* background-color: red; */
+  }
+}
+
+div {
+  /* width: 150px;
+  height: 150px;
+
+  background-color: blue;
+  animation-name: move;
+  /* animation-duration: 10s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: ease; */
+}
