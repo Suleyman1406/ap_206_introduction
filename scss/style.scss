@@ -1,0 +1,94 @@
+// @use "port";
+
+// $my-first-color: rgb(52, 52, 41);
+// $body-color: rgb(141, 141, 141);
+
+// body {
+//   background-color: $body-color;
+// }
+
+// a {
+//   background-color: $my-first-color;
+// }
+
+// div {
+//   width: 100px;
+//   height: 200px;
+//   background-color: $my-first-color;
+
+//   #salam {
+//     background-color: aqua;
+
+//     span {
+//       background-color: black;
+
+//       &:hover {
+//         background-color: red;
+//       }
+
+//       & ~ a {
+//         text-decoration: none;
+//       }
+//     }
+//   }
+// }
+
+// @mixin alert($color: green, $second: 0.4s, $size: 10px) {
+//   width: 200px;
+//   height: fit-content;
+//   border: 3px solid $color;
+//   border-radius: 5px;
+//   display: flex;
+//   align-items: center;
+//   padding: 10px 15px;
+//   gap: $size;
+//   transition: $second;
+//   cursor: pointer;
+//   margin: 10px;
+//   &:hover {
+//     background-color: $color;
+//     color: white;
+//     svg {
+//       fill: white;
+//     }
+//   }
+
+//   svg {
+//     width: 20px;
+//   }
+// }
+
+// #alert-success {
+//   @include alert();
+// }
+// #alert-warning {
+//   @include alert();
+// }
+// #alert-error {
+//   @include alert();
+// }
+
+%itemsCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%btn {
+  background-color: aqua;
+}
+
+.btn-primary {
+  @extend %itemsCenter;
+  @extend %btn;
+  height: 200px;
+}
+
+.btn-secondary {
+  @extend %itemsCenter;
+  background-color: gray;
+}
+
+.btn-ternary {
+  @extend %itemsCenter;
+  background-color: red;
+}

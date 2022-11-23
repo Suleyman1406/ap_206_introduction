@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Clan Pro";
+  font-weight: 700;
+  src: local("Clan Pro"), url(./fonts/FFClanProBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Clan Pro";
+  font-weight: 400;
+  src: local("Clan Pro"), url(./fonts/FFClanProRegular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Clan Pro";
+  font-weight: 500;
+  src: local("Clan Pro"), url(./fonts/FFClanProMedium.woff) format("woff");
+}
+
+body {
+  font-family: "Clan Pro";
+}

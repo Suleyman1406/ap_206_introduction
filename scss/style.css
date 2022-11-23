@@ -1,0 +1,27 @@
+.btn-ternary, .btn-secondary, .btn-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-primary {
+  background-color: aqua;
+}
+
+.btn-primary {
+  height: 200px;
+}
+
+.btn-secondary {
+  background-color: gray;
+}
+
+.btn-ternary {
+  background-color: red;
+}
