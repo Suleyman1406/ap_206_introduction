@@ -1,0 +1,36 @@
+#top_header {
+  background-color: $main_background_color;
+  nav {
+    width: $container_width;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+
+    ul {
+      display: flex;
+      width: 515px;
+      justify-content: space-between;
+      font-weight: 400;
+      font-size: 1rem;
+
+      a {
+        color: $text_light;
+        text-decoration: none;
+      }
+    }
+
+    button {
+      @include button(transparent, white, 900, 14px, 14.35px, 0.8, 1px);
+    }
+
+    @include for-size(phone) {
+    }
+
+    @include for-size(desktop) {
+      display: none;
+      // background-color: red;
+    }
+  }
+}
