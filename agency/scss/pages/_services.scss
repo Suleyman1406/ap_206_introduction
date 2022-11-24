@@ -1,0 +1,213 @@
+#top_header {
+  background-color: $main_background_color;
+
+  div:last-child {
+    padding: 84px 0 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 800;
+      line-height: 80px;
+      letter-spacing: -2px;
+      color: white;
+    }
+    p {
+      font-size: 1rem;
+      width: 570px;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.64);
+    }
+    @include for-size(phone) {
+      padding: 64px 0 87px;
+      p {
+        width: 329px;
+      }
+    }
+  }
+}
+
+#container_background {
+  background-color: $secondary_background_color;
+
+  & > div {
+    width: $container_width;
+    margin: auto;
+    padding-bottom: 50px;
+
+    @include for-size(phone) {
+      width: $phone_container_width;
+    }
+  }
+
+  #about_services {
+    padding: 76px 0 97px;
+    border-bottom: 1px solid #f3d1bf;
+    h5 {
+      color: $text_dark_accent;
+      letter-spacing: 3px;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 1rem;
+      line-height: 2rem;
+      margin-bottom: 33px;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        width: 470px;
+        color: $text_dark;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
+      p {
+        width: 570px;
+        margin-top: 15px;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: $text_dark_gray;
+        font-weight: 400;
+      }
+
+      @include for-size(phone) {
+        flex-direction: column;
+        h3,
+        p {
+          width: 329px;
+        }
+      }
+    }
+  }
+  #cards {
+    .card {
+      display: flex;
+      align-items: center;
+      padding: 47px 0 48px;
+      border-bottom: 1px solid #f3d1bf;
+      word-break: break-all;
+
+      h2 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        font-weight: 800;
+        letter-spacing: -1px;
+        margin-left: 36px;
+      }
+
+      svg:last-child {
+        margin-left: auto;
+      }
+    }
+    div:nth-child(2) {
+      width: 570px;
+      margin-left: auto;
+      padding: 76px 0 100px;
+
+      h3 {
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color: $text_dark;
+        margin-bottom: 28px;
+      }
+      p {
+        width: 100%;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: $text_dark_gray;
+        margin-bottom: 36px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+
+        li {
+          display: flex;
+          align-items: center;
+          column-gap: 16px;
+
+          span {
+            color: $text_dark;
+            font-size: 1rem;
+            line-height: 2rem;
+          }
+        }
+      }
+      @include for-size(phone) {
+        width: 329px;
+      }
+    }
+
+    .card:nth-child(3) {
+      border-top: 1px solid #f3d1bf;
+    }
+  }
+
+  #contact_img_container {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 6px;
+    justify-content: space-between;
+    background-color: $ternary_background_color;
+    padding: 41px 100px 71px;
+
+    div {
+      margin-top: 45px;
+      width: 470px;
+
+      h2 {
+        width: 368px;
+        font-size: 3.5rem;
+        line-height: 4rem;
+        letter-spacing: -1px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 28px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: $text_white_gray;
+        margin-bottom: 34px;
+      }
+
+      button {
+        @include button(white, #391400, 900, 14px, 14.35px, 0.8);
+      }
+    }
+
+    @include for-size(phone) {
+      flex-direction: column;
+      padding: 32px 28px 48px;
+
+      div {
+        width: 274px;
+        margin-top: 0;
+
+        h2 {
+          width: 100%;
+          margin-bottom: 12px;
+        }
+        p {
+          margin-bottom: 21px;
+        }
+      }
+      svg {
+        width: 273px;
+        order: -1;
+        margin-top: -85px;
+      }
+    }
+  }
+}

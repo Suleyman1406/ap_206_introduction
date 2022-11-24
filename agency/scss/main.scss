@@ -1,6 +1,8 @@
-@import "base/reset", "base/typogrophy", "base/base";
+@import "base/reset", "base/typogrophy";
 
 @import "utils/variables", "utils/mixins";
+
+@import "base/base";
 
 @import "layout/navigation";
 
