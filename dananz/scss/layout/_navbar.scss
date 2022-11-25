@@ -1,0 +1,22 @@
+.top-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+
+  div {
+    display: flex;
+    column-gap: 74px;
+    align-items: center;
+    a {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 25.6px;
+      text-decoration: none;
+      color: $gray_scale-50;
+    }
+    button {
+      @include button($primary_blue-100, $gray_scale-50);
+    }
+  }
+}
